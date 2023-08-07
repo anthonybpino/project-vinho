@@ -3,9 +3,9 @@
 
 
 ## Group- 3 Members:
-Purnima Pathak
-Anthony Pino
-Emily Washburn
+Purnima Pathak, 
+Anthony Pino, 
+Emily Washburn, 
 Sergio Roberto de Souza Junior 
 
 
