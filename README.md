@@ -62,7 +62,7 @@ We used pd.get_dummies on types which were red wine and white wine to turn it fr
 •	When comparing the clusters against the initial bar graphs we found that the clusters matched, signifying a correlation between the 4 data points and wine quality.
 
 
-
+## Averages and their significance
 
 •	Our lowest average quality cluster, cluster 0, had more volatile acidity and chlorides, on average than cluster 1, our highest average quality cluster.
 
@@ -74,6 +74,9 @@ We used pd.get_dummies on types which were red wine and white wine to turn it fr
 
 
 •	Cluster 2 ended up being in between the two other clusters.
+
+
+
 
 
 
