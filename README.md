@@ -20,8 +20,3 @@ The first thing we did was to clean the data. We used SQL Alchemy, created an en
 
 C:\Users\nphal\OneDrive\Desktop\project-vinho\Output\seaborn_plots\bar_charts.png
 
-
-
-
-C:\Users\nphal\OneDrive\Desktop\project-vinho\Output\ml_plots\chloride_alcohol.png
-
