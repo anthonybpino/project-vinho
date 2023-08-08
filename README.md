@@ -20,5 +20,15 @@ The first thing we did was to clean the data. We used SQL Alchemy, created an en
 
 C:\Users\nphal\OneDrive\Desktop\project-vinho\Output\seaborn_plots\bar_charts.png
 
+Through our data exploration we found 4 areas that affected quality-
+The lower the volatile acid the higher the wine quality. 
+The lower the chlorides the higher the wine quality.
+The higher the citric acid, the higher the wine quality.
+The higher the alcohol content, the higher the wine quality.
+
+## PCA Method (Unsupervised Machine Learning)
+
+We went for PCA Method to do the unsupervised machine learning with our dataset.
+
 
 
