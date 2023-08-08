@@ -51,6 +51,39 @@ We used pd.get_dummies on types which were red wine and white wine to turn it fr
 
 ![comparative plot 3](https://github.com/anthonybpino/project-vinho/assets/125159045/0ac9f33f-0670-4575-89b6-b73934fa5f1e)
 
+## Findings
+
+•	Prior to completing any unsupervised learning, we found that 4 data points, volatile acidity, chlorides, citric acid and alcohol content were the best indicators for wine quality. 
+
+
+•	Additional analysis showed that cluster 0 was the lowest quality and 1 was highest quality on average.
+
+
+•	When comparing the clusters against the initial bar graphs we found that the clusters matched, signifying a correlation between the 4 data points and wine quality.
+
+
+
+
+•	Our lowest average quality cluster, cluster 0, had more volatile acidity and chlorides, on average than cluster 1, our highest average quality cluster.
+
+
+•	Cluster 0 also had a lower average alcohol and citric acid content, which also matches up to our initial findings.
+
+
+•	The KMeans algorithm was able to cluster wines that match up to the original dataset without using the quality column.
+
+
+•	Cluster 2 ended up being in between the two other clusters.
+
+
+
+## SUMMARY
+
+## How can the model be used?
+One could, in theory, plug the stats of their wine in this model, see which cluster it falls into, and infer whether their wine is of higher quality or not. 
+
+The model performed better without using the quality scores as a factor. Further testing with different datasets could be done to see how the model performs, though from our findings, we think this could help someone make better wine choices.
+
 
 
 
@@ -60,6 +93,8 @@ https://www.kaggle.com/datasets/subhajournal/wine-quality-data-combined
 ## Documentations-
 
 https://seaborn.pydata.org/archive/0.11/generated/seaborn.distplot.html
+
+
 https://faculty.washington.edu/yenchic/18W_425/Lec6_hist_KDE.pdf
 
 
