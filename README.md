@@ -27,6 +27,9 @@ The lower the chlorides the higher the wine quality.
 The higher the citric acid, the higher the wine quality.
 The higher the alcohol content, the higher the wine quality.
 
+![barchart](https://github.com/anthonybpino/project-vinho/assets/125159045/440e7039-6a91-4c29-938b-31c265a8a383)
+
+
 ## PCA Method (Unsupervised Machine Learning)
 
 We went for PCA Method to do the unsupervised machine learning with our dataset.
