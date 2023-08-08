@@ -75,7 +75,7 @@ We used pd.get_dummies on types which were red wine and white wine to turn it fr
 
 •	Cluster 2 ended up being in between the two other clusters.
 
-
+![averages](https://github.com/anthonybpino/project-vinho/assets/125159045/bae9a3cd-d142-4506-b604-9e9f5fc491d2)
 
 
 
@@ -90,6 +90,8 @@ The model performed better without using the quality scores as a factor. Further
 
 
 
+
+
 ## Dataset Source-
 https://www.kaggle.com/datasets/subhajournal/wine-quality-data-combined
 
@@ -99,6 +101,8 @@ https://seaborn.pydata.org/archive/0.11/generated/seaborn.distplot.html
 
 
 https://faculty.washington.edu/yenchic/18W_425/Lec6_hist_KDE.pdf
+
+## THE END
 
 
 
