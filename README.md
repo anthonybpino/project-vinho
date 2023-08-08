@@ -34,17 +34,29 @@ The higher the alcohol content, the higher the wine quality.
 
 We went for PCA Method to do the unsupervised machine learning with our dataset.
 We checked the variation of wine density which came out to be 0.05187. The variation in wine density is very small and most likely it does not have any effect on the quality of wine, so we dropped the density column. The variation in alcohol content came out to be 6.9, so we are keeping it. 
-We used pd.get_dummies on types which were red wine and white wine to turn it from categorical values to numerical values and we appended it to the main data frame and then dropped the type column. Fit transform method was used through scikit-learn library before using the machine learning algorithms to reduce noise, remove redundant features so that computational efficiency can be improved. We used Kmeans clustering algorithm and got the elbow curve and predicted and plotted the model.
+We used pd.get_dummies on types which were red wine and white wine to turn it from categorical values to numerical values and we appended it to the main data frame and then dropped the type column. Fit transform method was used through scikit-learn library before using the machine learning algorithms to reduce noise, remove redundant features so that computational efficiency can be improved. We used Kmeans clustering algorithm and got the elbow curve and predicted and plotted the model. We did a comparative study on how the clusters would look like if we removed quality from the Kmeans. Below are the plots-
+
+
 ![PCA_elbow](https://github.com/anthonybpino/project-vinho/assets/125159045/e11572d2-6fb6-488c-ba6b-9885dd874ca9)
 
 ![model](https://github.com/anthonybpino/project-vinho/assets/125159045/061278fb-23a9-45a3-9710-afd3cc701a3f)
-![plot 1](https://github.com/anthonybpino/project-vinho/assets/125159045/ff18898e-c015-4da5-8f86-9dc67e1148df)
+
+
+![comparative plot 1](https://github.com/anthonybpino/project-vinho/assets/125159045/e608cdc8-f864-4d8c-8645-68a399e2b314)
+
+
+![comparative plot 2](https://github.com/anthonybpino/project-vinho/assets/125159045/5d6064b9-e467-435c-a97b-292faeae2d76)
+
+![comparative plot 3](https://github.com/anthonybpino/project-vinho/assets/125159045/0ac9f33f-0670-4575-89b6-b73934fa5f1e)
 
 
 
-Dataset Source-
+
+## Dataset Source-
 https://www.kaggle.com/datasets/subhajournal/wine-quality-data-combined
-Documentations-
+
+## Documentations-
+
 https://seaborn.pydata.org/archive/0.11/generated/seaborn.distplot.html
 https://faculty.washington.edu/yenchic/18W_425/Lec6_hist_KDE.pdf
 
