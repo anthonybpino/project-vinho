@@ -2,16 +2,24 @@
 
 A summary of changes for project-vinho
 
+## 08.08.23
+
+### Updates:
+
+- Finish README.md with added details and plots
+- Add project pdf with presenation made to class
+- Code cleanup
+
 ## 08.07.23
 
 ### Updates:
 
-- create KMeans dataframe without quality for plotting
-- create plots and added to Output/noqual_plots
-- add clusters to cleaned dataframe to find averages for each cluster's significant metric
+- Create KMeans dataframe without quality for plotting
+- Create plots and added to Output/noqual_plots
+- Cdd clusters to cleaned dataframe to find averages for each cluster's significant metric
 - Add calculations for averages
-- score models to find if model with or without quality is better
-- update readme with project details
+- Score models to find if model with or without quality is better
+- Update readme with project details
 
 ## 08.05.23
 
