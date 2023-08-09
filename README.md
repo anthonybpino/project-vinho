@@ -22,9 +22,17 @@ The first thing we did was to clean the data. We used SQL Alchemy, created an en
 
 
 Through our data exploration we found that 4 areas are seemingly affecting quality-
+
+
 The lower the volatile acid the higher the wine quality. Volatile Acidity is associated with the gaseous acids in the wine. It is the smell and taste of vinegar in the wine.
+
+
 The lower the chlorides the higher the wine quality. Chloride contributes to the saltiness in the wine.
+
+
 The higher the citric acid, the higher the wine quality. Citric acid increases the acidity in the wine and gives it a “fresh” flavor.
+
+
 The higher the alcohol content, the higher the wine quality. The alcohol content in the wine decides whether the wine is strong or not.
 
 
@@ -94,7 +102,7 @@ The model performed better without using the quality scores as a factor. Further
 
 
 
-Limitations
+### Limitations
 
 We do not know what geographical locations were taken into count when this dataset was created and we do not know what age group rated the wine quality.
 The other Limitation could be that it’s one dataset and we didn’t test any other one. There also isn’t much metadata on what the numbers mean, meaning like if it’s alcohol percentage or not, for example.
